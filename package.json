@@ -19,5 +19,14 @@
     "vite": "^5.4.8",
     "webpack": "^5.111.1",
     "webpack-cli": "^6.0.1"
+  },
+  {
+    "homepage": "https://rohanm119.github.io/gr-diary"
+  },
+  {
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+    }
   }
 }
